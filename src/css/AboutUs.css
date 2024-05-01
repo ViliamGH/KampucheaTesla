@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "god";
+  src: url("../../public/Font/NotoSansKhmer-Regular.ttf");
+}
+
+body {
+  font-family: "god";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+

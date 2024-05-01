@@ -1,0 +1,21 @@
+.pagination a {
+  border: 1px solid "#f9f9f9";
+}
+
+.pagination li a {
+  color: #f9f9f9;
+  background-color: #161b22;
+}
+
+.pagination li.active a {
+  border-color: none;
+  color: #f9f9f9;
+  background-color: #161b22;
+}
+
+.border-style {
+  display: inline;
+  padding: 10px;
+  border: 2px solid;
+  border-color: #7240c8;
+}

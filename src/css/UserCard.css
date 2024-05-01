@@ -1,0 +1,13 @@
+.image-hover-user {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+.image-hover-user #user-img {
+  width: 100%;
+  display: block;
+  transition: all 1.3s;
+}
+.image-hover-user:hover #user-img {
+  transform: scale(1.2);
+}

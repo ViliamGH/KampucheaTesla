@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "god";
+  src: (
+    "https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@500;600&display=swap"
+  );
+}
+
+body {
+  font-family: "god";
+  background-color: #161b22 !important;
+  color: #f9f9f9 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

@@ -1,0 +1,34 @@
+.top-nav-style {
+  background-color: #0d1116;
+  color: #f9f9f9;
+}
+
+.nav-style {
+  color: #f9f9f9 !important;
+  font-size: 18px;
+}
+
+.nav-style:hover {
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+.none-hover {
+  border: 1px solid #bbb;
+  background-color: #24292f;
+  color: #f9f9f9;
+  transition: all 0.3s ease;
+}
+.none-hover:hover {
+  background-color: #24292f;
+  color: #f9f9f9;
+}
+
+#nav-toggle-style-option {
+  background-color: #f9f9f9;
+}
+
+.nav-offcanvas-style {
+  background-color: #0d1116;
+  color: #f9f9f9;
+}

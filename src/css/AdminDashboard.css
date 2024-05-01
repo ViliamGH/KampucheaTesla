@@ -1,0 +1,27 @@
+.body-style {
+  background: linear-gradient(106.37deg, #4b525aff, #232939ff, #14181fff);
+}
+
+.card-color {
+  color: #f9f9f9;
+}
+
+.card-main {
+  color: #3db193;
+  font-size: 30px;
+}
+
+.chart-style {
+  background-color: #232939;
+  padding: 25px;
+}
+
+.icon-size {
+  color: #f9f9f9;
+  font-size: 20px;
+  transition: all 0.8s ease;
+}
+
+.icon-size:hover {
+  color: #3db193ff;
+}
