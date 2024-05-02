@@ -1,3 +1,4 @@
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
@@ -27,6 +28,7 @@ import AdminDashBoard from "./admin/pages/AdminDashBoard";
 function App() {
   return (
     <>
+      <SpeedInsights />
       <BrowserRouter>
         <ShowNotShowNavbar>
           <MyNavBarBro />
