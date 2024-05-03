@@ -67,6 +67,7 @@ const HomePage = () => {
                         </video>
                     </section>
 
+                    {/* carousel items */}
                     <section>
                         <div className="p-5 pb-0">
                             <h1 className="fw-bolder">
@@ -78,7 +79,9 @@ const HomePage = () => {
                             </h1>
                             <Link to="#">{t("homecarosuel5")}</Link>
                         </div>
-                        <Carousel interval={3000} className="mt-5">
+
+                        {/* start the carousels */}
+                        <Carousel className="mt-5">
                             <Carousel.Item>
                                 <img
                                     src={r1}
