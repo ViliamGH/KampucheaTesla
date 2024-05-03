@@ -15,7 +15,6 @@ import Login from "./admin/data/Login";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ShowNotShowNavbar from "./components/ShowNotShowNavbar";
 import Contact from "./pages/Contact";
-import Home from "./pages/Home";
 import PrivacyAndLegal from "./pages/PrivacyAndLegal";
 import AboutUs from "./pages/AboutUs";
 import Register from "./admin/data/Register";
@@ -25,6 +24,7 @@ import Shop from "./pages/Shop";
 import ReviewProduct from "./pages/ReviewProduct";
 import AdminLocation from "./admin/pages/AdminLocation";
 import AdminDashBoard from "./admin/pages/AdminDashBoard";
+import HomePage from "./pages/HomePage";
 function App() {
   return (
     <>
@@ -34,7 +34,7 @@ function App() {
           <MyNavBarBro />
         </ShowNotShowNavbar>
         <Routes>
-          <Route index element={<Home />} />
+          <Route index element={<HomePage />} />
           <Route path="insertproducts" element={<InsertMyProducts />} />
           <Route path="insertusers" element={<InsertMyUsers />} />
           <Route path="viewprofile/:id" element={<ViewProfile />} />

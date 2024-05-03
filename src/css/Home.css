@@ -21,7 +21,7 @@
   text-decoration: underline;
 }
 
-/* carousel-styling */
+/* carousel-styling
 .absolute-text-carousel {
   padding: 20px 0 0 0;
   text-align: end;
@@ -106,15 +106,14 @@
 }
 
 /* button of card of laptops and desktops */
-.carousel-control-prev {
+/* .carousel-control-prev {
   width: 8%;
   font-size: 35px;
 }
 .carousel-control-next {
   width: 8%;
   font-size: 35px;
-}
-
+} */ 
 
 /* .img-style {
   min-height: 1000px;
