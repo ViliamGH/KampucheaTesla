@@ -21,62 +21,27 @@
   text-decoration: underline;
 }
 
-/* carousel-styling
-.absolute-text-carousel {
-  padding: 20px 0 0 0;
-  text-align: end;
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 60%;
-  transform: translate(0%, -50%);
-  color: white;
+/* carousel react js */
+.carousel-indicators [data-bs-target] {
+  border-radius: 100%;
+  width: 10px;
+  height: 10px;
 }
+
+/* carousel-styling */
 .absolute-text-carousel2 {
-  padding: 20px 0 0 0;
-  text-align: start;
-  width: 30%;
+  text-align: center;
+  width: auto;
   position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translate(0%, -50%);
+  top: unset;
+  left: 15%;
+  transform: translate(0%, -15%);
   color: white;
-  margin: 0 auto;
-}
-.absolute-text-carousel3 {
-  padding: 20px 0 0 0;
-  text-align: start;
-  width: 30%;
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  transform: translate(0%, -50%);
-  color: white;
-  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1200px) {
-  .absolute-text-carousel {
-    background-color: #000;
-  }
   .absolute-text-carousel2 {
     background-color: #000;
-  }
-  .absolute-text-carousel3 {
-    background-color: #000;
-  }
-
-  .absolute-text-carousel,
-  p {
-    position: relative;
-    width: 100%;
-    height: auto;
-    transform: none;
-    left: unset;
-    top: unset;
-    padding: 2em 1em 1em;
-    text-align: center;
-    font-size: 13px;
   }
 
   .absolute-text-carousel2,
@@ -87,33 +52,24 @@
     transform: none;
     left: unset;
     top: unset;
-    padding: 2em 1em 1em;
     text-align: center;
-    font-size: 13px;
-  }
-  .absolute-text-carousel3,
-  p {
-    position: relative;
-    width: 100%;
-    height: auto;
-    transform: none;
-    left: unset;
-    top: unset;
-    padding: 2em 1em 1em;
-    text-align: center;
-    font-size: 13px;
+    font-size: 15px;
+    padding: 2em 0.5em 0.5em;
+    margin-bottom: 1em;
   }
 }
 
 /* button of card of laptops and desktops */
-/* .carousel-control-prev {
-  width: 8%;
-  font-size: 35px;
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
 }
-.carousel-control-next {
-  width: 8%;
-  font-size: 35px;
-} */ 
+.carousel-control-prev-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+}
 
 /* .img-style {
   min-height: 1000px;

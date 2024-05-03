@@ -81,139 +81,86 @@ const HomePage = () => {
                         </div>
 
                         {/* start the carousels */}
-                        <Carousel className="mt-5">
+                        <Carousel fade className='mt-5'>
                             <Carousel.Item>
-                                <img
-                                    src={r1}
-                                    alt="kampuchea tesla"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel6")}</h3>
-                                    <p>{t("homecarosuel7")}</p>
+                                <img src={r1} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel7")}</h4>
                                     <p>
                                         <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r2}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />{" "}
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel6")}</h3>
-                                    <p>{t("homecarosuel7")}</p>
+                                <img src={r2} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel8")}</h4>
                                     <p>
-                                        <Link to="#">{t("homecarosuel9")}</Link>
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r3}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />{" "}
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel6")}</h3>
-                                    <p>{t("homecarosuel7")}</p>
+                                <img src={r3} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel9")}</h4>
                                     <p>
-                                        <Link to="#">{t("homecarosuel10")}</Link>
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r4}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />{" "}
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel6")}</h3>
-                                    <p>{t("homecarosuel7")}</p>
+                                <img src={r4} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel10")}</h4>
                                     <p>
-                                        <Link to="#">{t("homecarosuel11")}</Link>
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r5}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />{" "}
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel13")}</h3>
+                                <img src={r5} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel11")}</h4>
                                     <p>
-                                        {t("homecarosuel14")} <br />
-                                        {t("homecarosuel18")}
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                    <p>
-                                        <Link to="#">{t("homecarosuel7")}</Link>
-                                    </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r6}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />{" "}
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel13")}</h3>
+                                <img src={r6} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel12")}</h4>
                                     <p>
-                                        {t("homecarosuel15")} <br />
-                                        {t("homecarosuel18")}
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                    <p>
-                                        <Link to="#">{t("homecarosuel7")}</Link>
-                                    </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r7}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel13")}</h3>
+                                <img src={r7} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel13")}</h4>
                                     <p>
-                                        {t("homecarosuel16")} <br />
-                                        {t("homecarosuel18")}
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                    <p>
-                                        <Link to="#">{t("homecarosuel7")}</Link>
-                                    </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img
-                                    src={r8}
-                                    alt="kampuchea tesla kampuchea khmer product how it work"
-                                    className="object-fit-contain img-fluid"
-                                    width="100%"
-                                />
-                                <Carousel.Caption>
-                                    <h3>{t("homecarosuel13")}</h3>
+                                <img src={r8} className="d-block w-100" alt="Kampuchea tesla of electric car" />
+                                <div className="absolute-text-carousel2">
+                                    <h2 style={{ color: "#2578cc" }}>{t("homecarosuel6")}</h2>
+                                    <h4 className="fw-light">{t("homecarosuel14")}</h4>
                                     <p>
-                                        {t("homecarosuel17")}
-                                        <br />
-                                        {t("homecarosuel18")}
+                                        <Link to="#">{t("homecarosuel18")}</Link>
                                     </p>
-                                    <p>
-                                        <Link to="#">{t("homecarosuel7")}</Link>
-                                    </p>
-                                </Carousel.Caption>
+                                </div>
                             </Carousel.Item>
                         </Carousel>
                     </section>
