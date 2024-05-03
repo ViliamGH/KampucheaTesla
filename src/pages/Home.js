@@ -63,10 +63,11 @@ const Home = () => {
               muted
               className="object-fit-contain img-fluid w-100"
             >
-              <source src={homevideo} type="video/mp4" alt="kampuchea tesla kampuchea khmer product how it work"/>
+              <source src={homevideo} type="video/mp4" alt="kampuchea tesla kampuchea khmer product how it work" />
             </video>
           </section>
 
+          {/* zin */}
           <section>
             <div className="p-5 pb-0">
               <h1 className="fw-bolder">
@@ -214,6 +215,168 @@ const Home = () => {
               </Carousel.Item>
             </Carousel>
           </section>
+
+          <section>
+            <div id="carouselExampleIndicators" class="carousel slide">
+
+              <div className="p-5 pb-0">
+                <h1 className="fw-bolder">
+                  {t("homecarosuel1")}{" "}
+                  <span style={{ color: "#4D2DB7" }}>{t("homecarosuel2")}</span>{" "}
+                  {t("homecarosuel3")}
+                  &nbsp;
+                  <span style={{ color: "#4d2db7" }}>{t("homecarosuel4")}</span>
+                </h1>
+                <Link to="#">{t("homecarosuel5")}</Link>
+              </div>
+              <Carousel className="mt-5">
+                <Carousel.Item className="absolute-text-carousel2">
+                  <img
+                    src={r1}
+                    alt="kampuchea tesla"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel6")}</h3>
+                    <p>{t("homecarosuel7")}</p>
+                    <p>
+                      <Link to="#">{t("homecarosuel18")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel3">
+                  <img
+                    src={r2}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />{" "}
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel6")}</h3>
+                    <p>{t("homecarosuel7")}</p>
+                    <p>
+                      <Link to="#">{t("homecarosuel9")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel1">
+                  <img
+                    src={r3}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />{" "}
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel6")}</h3>
+                    <p>{t("homecarosuel7")}</p>
+                    <p>
+                      <Link to="#">{t("homecarosuel10")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel2">
+                  <img
+                    src={r4}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />{" "}
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel6")}</h3>
+                    <p>{t("homecarosuel7")}</p>
+                    <p>
+                      <Link to="#">{t("homecarosuel11")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel3">
+                  <img
+                    src={r5}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />{" "}
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel13")}</h3>
+                    <p>
+                      {t("homecarosuel14")} <br />
+                      {t("homecarosuel18")}
+                    </p>
+                    <p>
+                      <Link to="#">{t("homecarosuel7")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel1">
+                  <img
+                    src={r6}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />{" "}
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel13")}</h3>
+                    <p>
+                      {t("homecarosuel15")} <br />
+                      {t("homecarosuel18")}
+                    </p>
+                    <p>
+                      <Link to="#">{t("homecarosuel7")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel2">
+                  <img
+                    src={r7}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel13")}</h3>
+                    <p>
+                      {t("homecarosuel16")} <br />
+                      {t("homecarosuel18")}
+                    </p>
+                    <p>
+                      <Link to="#">{t("homecarosuel7")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+                <Carousel.Item className="absolute-text-carousel3">
+                  <img
+                    src={r8}
+                    alt="kampuchea tesla kampuchea khmer product how it work"
+                    className="object-fit-contain img-fluid"
+                    width="100%"
+                  />
+                  <Carousel.Caption>
+                    <h3>{t("homecarosuel13")}</h3>
+                    <p>
+                      {t("homecarosuel17")}
+                      <br />
+                      {t("homecarosuel18")}
+                    </p>
+                    <p>
+                      <Link to="#">{t("homecarosuel7")}</Link>
+                    </p>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              </Carousel>
+              <Button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <i class="fa-solid fa-circle-chevron-left" aria-hidden="true"></i>
+                <span class="visually-hidden">Previous</span>
+              </Button>
+              <Button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <i class="fa-solid fa-circle-chevron-right" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+              </Button>
+            </div>
+          </section>
+
           <section>
             <Row className="mt-5">
               <Col md={6}>
@@ -242,6 +405,7 @@ const Home = () => {
               </Col>
             </Row>
           </section>
+
           <section>
             <Row className="mt-5">
               <Col md={6}>
@@ -270,8 +434,9 @@ const Home = () => {
               </Col>
             </Row>
           </section>
+
         </div>
-      </Container>
+      </Container >
       <div className="mt-5">
         <Footer />
       </div>
