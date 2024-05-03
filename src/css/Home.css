@@ -30,13 +30,16 @@
 
 /* carousel-styling */
 .absolute-text-carousel2 {
+  padding: 20px 0 0 0;
   text-align: center;
-  width: auto;
+  width: 30%;
   position: absolute;
-  top: unset;
-  left: 15%;
-  transform: translate(0%, -15%);
+  top: 90%;
+  left: 35%;
+  transform: translate(0%, -70%);
   color: white;
+  margin: 0 auto;
+  font-weight: bolder;
 }
 
 @media only screen and (max-width: 1200px) {
