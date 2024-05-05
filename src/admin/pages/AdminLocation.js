@@ -1,20 +1,19 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import teslaMap1 from "../../Image_webp/TeslaMap_1.avif";
-import teslaMap2 from "../../Image_webp/TeslaMap_2.avif";
-import teslaMap3 from "../../Image_webp/TeslaMap_3.avif";
-import teslaMap4 from "../../Image_webp/TeslaMap_4.avif";
-import teslaMap5 from "../../Image_webp/TeslaMap_5.avif";
-import teslaMap6 from "../../Image_webp/TeslaMap_6.avif";
-import teslaMap7 from "../../Image_webp/TeslaMap_7.avif";
-import teslaMap8 from "../../Image_webp/TeslaMap_8.avif";
-import teslaMap9 from "../../Image_webp/TeslaMap_9.avif";
-import teslaMap10 from "../../Image_webp/TeslaMap_10.avif";
-import { useTranslation } from "react-i18next";
-import Sidebar from "../global/Sidebar";
-import Footer from "../../pages/Footer";
-import "../../css/AdminLocation.css";
+import teslaMap1 from "../../interface/Image_webp/TeslaMap_1.avif";
+import teslaMap2 from "../../interface/Image_webp/TeslaMap_2.avif";
+import teslaMap3 from "../../interface/Image_webp/TeslaMap_3.avif";
+import teslaMap4 from "../../interface/Image_webp/TeslaMap_4.avif";
+import teslaMap5 from "../../interface/Image_webp/TeslaMap_5.avif";
+import teslaMap6 from "../../interface/Image_webp/TeslaMap_6.avif";
+import teslaMap7 from "../../interface/Image_webp/TeslaMap_7.avif";
+import teslaMap8 from "../../interface/Image_webp/TeslaMap_8.avif";
+import teslaMap9 from "../../interface/Image_webp/TeslaMap_9.avif";
+import teslaMap10 from "../../interface/Image_webp/TeslaMap_10.avif";
+// import Sidebar from "../global/Sidebar";
+import Footer from "../../interface/pages/Footer";
+import "../../interface/css/AdminLocation.css";
 import {
   faBagShopping,
   faBell,
@@ -28,7 +27,7 @@ const AdminLocation = () => {
     <>
       <div className="d-flex justify-content-between body-style">
         <div>
-          <Sidebar />
+          {/* <Sidebar /> */}
         </div>
         <Container fluid className="p-3">
           <Row className="pt-3 d-flex align-items-center">

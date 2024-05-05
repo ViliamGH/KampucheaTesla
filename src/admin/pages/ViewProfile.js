@@ -13,17 +13,17 @@ import {
   Row,
   Form,
 } from "react-bootstrap";
-import { Upload_File } from "../../utilities/services/FileUpload";
+import { Upload_File } from "../../interface/utilities/services/FileUpload";
 import {
   Get_All_User_By_Id,
   Update_User,
-} from "../../utilities/services/UserService";
+} from "../../interface/utilities/services/UserService";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
 import { RotatingLines } from "react-loader-spinner";
-import tesla from "../../Flag-Icons/LogoTesla/04_0x0-Tesla_Wordmark_10_White.png";
+import tesla from "../../interface/Flag-Icons/LogoTesla/04_0x0-Tesla_Wordmark_10_White.png";
 
-import "../../css/InsertProductAndProfile.css";
+import "../../interface/css/InsertProductAndProfile.css";
 import { useTranslation } from "react-i18next";
 
 const ViewProfile = () => {

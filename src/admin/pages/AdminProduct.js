@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "../../css/AdminProduct.css";
+import "../../interface/css/AdminProduct.css";
 import {
   Button,
   Carousel,
@@ -12,13 +12,13 @@ import {
 import {
   Delete_Product,
   Get_All_Product,
-} from "../../utilities/services/ProductService";
+} from "../../interface/utilities/services/ProductService";
 import { Link } from "react-router-dom";
 import ReactPaginate from "react-paginate";
 import { ToastContainer, toast } from "react-toastify";
-import { Get_All_Category } from "../../utilities/services/CategorySerice";
-import Footer from "../../pages/Footer";
-import Sidebar from "../global/Sidebar";
+import { Get_All_Category } from "../../interface/utilities/services/CategorySerice";
+import Footer from "../../interface/pages/Footer";
+// import Sidebar from "../global/Sidebar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBagShopping,
@@ -78,7 +78,7 @@ const AdminProduct = () => {
     <>
       <div className="d-flex justify-content-between body-style">
         <div>
-          <Sidebar />
+          {/* <Sidebar /> */}
         </div>
         <Container fluid className="p-3">
           <Row className="pt-3 d-flex align-items-center">

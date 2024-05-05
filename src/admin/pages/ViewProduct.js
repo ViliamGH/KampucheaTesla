@@ -17,15 +17,15 @@ import { Link, useNavigate, useParams } from "react-router-dom";
 import {
   Get_Product_By_ID,
   Update_Product,
-} from "../../utilities/services/ProductService";
-import { Upload_File } from "../../utilities/services/FileUpload";
-import { Get_All_Category } from "../../utilities/services/CategorySerice";
+} from "../../interface/utilities/services/ProductService";
+import { Upload_File } from "../../interface/utilities/services/FileUpload";
+import { Get_All_Category } from "../../interface/utilities/services/CategorySerice";
 
 import { toast } from "react-toastify";
 import { RotatingLines } from "react-loader-spinner";
-import tesla from "../../Flag-Icons/LogoTesla/04_0x0-Tesla_Wordmark_10_White.png";
+import tesla from "../../interface/Flag-Icons/LogoTesla/04_0x0-Tesla_Wordmark_10_White.png";
 
-import "../../css/InsertProductAndProfile.css";
+import "../../interface/css/InsertProductAndProfile.css";
 import { useTranslation } from "react-i18next";
 
 const ViewProduct = () => {

@@ -10,12 +10,12 @@ import {
   Row,
 } from "react-bootstrap";
 
-import teslaLogoLogin from "../../Flag-Icons/LogoTesla/02_0x0-Tesla_T_White.png";
-import google from "../../Flag-Icons/google.png";
-import facebook from "../../Flag-Icons/facebook.png";
-import gitlab from "../../Flag-Icons/gitlab.png";
+import teslaLogoLogin from "../../interface/Flag-Icons/LogoTesla/02_0x0-Tesla_T_White.png";
+import google from "../../interface/Flag-Icons/google.png";
+import facebook from "../../interface/Flag-Icons/facebook.png";
+import gitlab from "../../interface/Flag-Icons/gitlab.png";
 
-import "../../css/Register.css";
+import "../../interface/css/Register.css";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";

@@ -9,16 +9,16 @@ import {
   Row,
   Form,
 } from "react-bootstrap";
-import { Create_New_User } from "../../utilities/services/UserService";
-import { Upload_File } from "../../utilities/services/FileUpload";
+import { Create_New_User } from "../../interface/utilities/services/UserService";
+import { Upload_File } from "../../interface/utilities/services/FileUpload";
 import { ToastContainer, toast } from "react-toastify";
 import { RotatingLines } from "react-loader-spinner";
 import { Link, useNavigate } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 
-import "../../css/InsertProductAndProfile.css";
-import Sidebar from "../global/Sidebar";
-import Footer from "../../pages/Footer";
+import "../../interface/css/InsertProductAndProfile.css";
+// import Sidebar from "../global/Sidebar";
+import Footer from "../../interface/pages/Footer";
 import {
   faBagShopping,
   faBell,
@@ -141,7 +141,7 @@ const InsertMyUsers = () => {
     <>
       <div className="d-flex justify-content-between body-style">
         <div>
-          <Sidebar />
+          {/* <Sidebar /> */}
         </div>
         <Container fluid className="p-3 pb-5">
           <Row className="px-5 pt-3 d-flex align-items-center">

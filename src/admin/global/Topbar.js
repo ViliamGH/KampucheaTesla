@@ -1,216 +1,191 @@
-import React from "react";
-import "../../css/Topbar.css";
-import bemo from "../../Admin_Icon_Page/bemo.png";
+import React from 'react'
+
+import "../assets/css/style.css";
+import "../assets/vendors/mdi/css/materialdesignicons.min.css";
+import "../assets/vendors/css/vendor.bundle.base.css";
+import "../assets/vendors/jvectormap/jquery-jvectormap.css";
+import "../assets/vendors/flag-icon-css/css/flag-icon.min.css";
+import "../assets/vendors/owl-carousel-2/owl.carousel.min.css";
+import "../assets/vendors/owl-carousel-2/owl.theme.default.min.css";
+
+// image
+import Topbar1 from "../assets/images/logo-mini.svg";
+import Topbar2 from "../assets/images/faces/face1.jpg";
+import Topbar3 from "../assets/images/faces/face2.jpg";
+import Topbar4 from "../assets/images/faces/face3.jpg";
+import Topbar5 from "../assets/images/faces/face5.jpg";
 
 const Topbar = () => {
   return (
     <>
-      <section>
-        <div className="top-bar" style={{ backgroundColor: "#040d21ff" }}>asdasdasdasdas</div>
-      </section>
+
+      <nav class="navbar p-0 fixed-top d-flex flex-row">
+        <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
+          <a class="navbar-brand brand-logo-mini" href="#">
+            <img src={Topbar1} alt="logo" />
+          </a>
+        </div>
+        <div class="navbar-menu-wrapper flex-grow d-flex align-items-stretch">
+          <button class="navbar-toggler navbar-toggler align-self-center" type="button" data-toggle="minimize">
+            <span class="mdi mdi-menu"></span>
+          </button>
+          <ul class="navbar-nav w-100">
+            <li class="nav-item w-100">
+              <form class="nav-link mt-2 mt-md-0 d-none d-lg-flex search">
+                <input type="text" class="form-control" placeholder="Search products" />
+              </form>
+            </li>
+          </ul>
+          <ul class="navbar-nav navbar-nav-right">
+            <li class="nav-item dropdown border-left">
+              <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown"
+                aria-expanded="false">
+                <i class="mdi mdi-email"></i>
+                <span class="count bg-success"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+                <h6 class="p-3 mb-0">Messages</h6>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src={Topbar2} alt="image" class="rounded-circle profile-pic" />
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1">Mark send you a message</p>
+                    <p class="text-muted mb-0"> 1 Minutes ago </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src={Topbar3} alt="image" class="rounded-circle profile-pic" />
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1">Cregh send you a message</p>
+                    <p class="text-muted mb-0"> 15 Minutes ago </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <img src={Topbar4} alt="image" class="rounded-circle profile-pic" />
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject ellipsis mb-1">Profile picture updated</p>
+                    <p class="text-muted mb-0"> 18 Minutes ago </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <p class="p-3 mb-0 text-center">4 new messages</p>
+              </div>
+            </li>
+            <li class="nav-item dropdown border-left">
+              <a class="nav-link count-indicator dropdown-toggle" id="notificationDropdown" href="#" data-toggle="dropdown">
+                <i class="mdi mdi-bell"></i>
+                <span class="count bg-danger"></span>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list"
+                aria-labelledby="notificationDropdown">
+                <h6 class="p-3 mb-0">Notifications</h6>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-calendar text-success"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject mb-1">Event today</p>
+                    <p class="text-muted ellipsis mb-0"> Just a reminder that you have an event today </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-settings text-danger"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject mb-1">Settings</p>
+                    <p class="text-muted ellipsis mb-0"> Update dashboard </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-link-variant text-warning"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject mb-1">Launch Admin</p>
+                    <p class="text-muted ellipsis mb-0"> New admin wow! </p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <p class="p-3 mb-0 text-center">See all notifications</p>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" id="profileDropdown" href="#" data-toggle="dropdown">
+                <div class="navbar-profile">
+                  <img class="img-xs rounded-circle" src={Topbar5} alt="" />
+                  <p class="mb-0 d-none d-sm-block navbar-profile-name">Henry Klein</p>
+                  <i class="mdi mdi-menu-down d-none d-sm-block"></i>
+                </div>
+              </a>
+              <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="profileDropdown">
+                <h6 class="p-3 mb-0">Profile</h6>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-settings text-success"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject mb-1">Settings</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item preview-item">
+                  <div class="preview-thumbnail">
+                    <div class="preview-icon bg-dark rounded-circle">
+                      <i class="mdi mdi-logout text-danger"></i>
+                    </div>
+                  </div>
+                  <div class="preview-item-content">
+                    <p class="preview-subject mb-1">Log out</p>
+                  </div>
+                </a>
+                <div class="dropdown-divider"></div>
+                <p class="p-3 mb-0 text-center">Advanced settings</p>
+              </div>
+            </li>
+          </ul>
+          <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button"
+            data-toggle="offcanvas">
+            <span class="mdi mdi-format-line-spacing"></span>
+          </button>
+        </div>
+      </nav>
+
+      <script src="../assets/vendors/js/vendor.bundle.base.js"></script>
+      <script src="../assets/vendors/chart.js/Chart.min.js"></script>
+      <script src="../assets/vendors/progressbar.js/progressbar.min.js"></script>
+      <script src="../assets/vendors/jvectormap/jquery-jvectormap.min.js"></script>
+      <script src="../assets/vendors/jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+      <script src="../assets/vendors/owl-carousel-2/owl.carousel.min.js"></script>
+      <script src="../assets/js/off-canvas.js"></script>
+      <script src="../assets/js/hoverable-collapse.js"></script>
+      <script src="../assets/js/misc.js"></script>
+      <script src="../assets/js/settings.js"></script>
+      <script src="../assets/js/todolist.js"></script>
+      <script src="../assets/js/dashboard.js"></script>
+
     </>
-  );
-};
+  )
+}
 
-export default Topbar;
-
-// import { useState } from "react";
-// import Nav from "react-bootstrap/Nav";
-// import Navbar from "react-bootstrap/Navbar";
-// import Offcanvas from "react-bootstrap/Offcanvas";
-// import { NavLink } from "react-router-dom";
-// import { useTranslation } from "react-i18next";
-// import adminICON from "../../Admin_Icon_Page/finn_admin.png";
-// import dashboardICON from "../../Admin_Icon_Page/analysis.png";
-// import bookingICON from "../../Admin_Icon_Page/booking.png";
-// import reportICON from "../../Admin_Icon_Page/report.png";
-// import locationICON from "../../Admin_Icon_Page/location.png";
-// import productICON from "../../Admin_Icon_Page/product.png";
-// import userICON from "../../Admin_Icon_Page/user.png";
-// import settingICON from "../../Admin_Icon_Page/setting.png";
-// import supportICON from "../../Admin_Icon_Page/support.png";
-// import logoutICON from "../../Admin_Icon_Page/logout.png";
-// import { Link } from "react-router-dom";
-// import bmo from "../../Admin_Icon_Page/bemo.png";
-
-// import "../../css/Topbar.css";
-
-// const Topbar = () => {
-//   const [showNavbar, setShowNavbar] = useState(false);
-//   const [showMenu, setShowMenu] = useState(false);
-//   const [title, setTitle] = useState("Region & Language");
-
-//   const [showDropdown, setShowDropdown] = useState(false);
-
-//   // const handleMouseEnter = () => {
-//   //   setShowDropdown(true);
-//   // };
-
-//   // const handleMouseLeave = () => {
-//   //   setShowDropdown(false);
-//   // };
-
-//   const selectFlag = (eventKey) => {
-//     setTitle(eventKey);
-//   };
-
-//   const handleMenuToggle = () => {
-//     setShowMenu(false);
-//   };
-
-//   const { t, i18n } = useTranslation();
-
-//   const language = [
-//     { code: "en", name: "English" },
-//     { code: "kh", name: "ខ្មែរ" },
-//     { code: "ch", name: "中国" },
-//   ];
-
-//   return (
-//     <>
-//       <Navbar expand="xxxl" fixed="top" className="p-3 px-3 top-nav-style">
-//         <Navbar.Brand>
-//           <img
-//             src={adminICON}
-//             alt="..."
-//             style={{ width: "auto", height: "100%" }}
-//           />
-//         </Navbar.Brand>
-//         <Navbar.Toggle
-//           id="nav-toggle-style-option"
-//           aria-controls="offcanvasNavbar"
-//           onClick={() => setShowMenu(true)}
-//         />
-//         <Navbar.Offcanvas
-//           className="nav-offcanvas-style"
-//           id="offcanvasNavbar"
-//           aria-labelledby={`offcanvFasNavbarLabel`}
-//           placement="start"
-//           show={showMenu}
-//           onHide={() => setShowMenu(false)}
-//         >
-//           <Offcanvas.Header
-//             closeButton
-//             closeVariant="white"
-//             style={{ borderBottom: "1px solid #CCC" }}
-//           >
-//             <Offcanvas.Title>
-//               <img
-//                 src={bmo}
-//                 alt="..."
-//                 style={{ width: "130px", cursor: "default" }}
-//               />
-//             </Offcanvas.Title>
-//           </Offcanvas.Header>
-//           <Offcanvas.Body>
-//             <Nav navbarScroll className="d-flex justify-content-center">
-//               <NavLink
-//                 className="nav-link nav-style"
-//                 style={{ color: "#f9f9f9" }}
-//                 onClick={handleMenuToggle}
-//                 to="/adminproduct"
-//               >
-//                 <ul className="list-unstyle">
-//                   <li>
-//                     <Link to={"/"} className="li-style">
-//                       <img
-//                         src={dashboardICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       DashBoard
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to="/adminproduct" className="li-style">
-//                       <img
-//                         src={productICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Product
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to={"/adminuser"} className="li-style">
-//                       <img
-//                         src={userICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       User
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to={"#"} className="li-style">
-//                       <img
-//                         src={bookingICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Booking
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to={"#"} className="li-style">
-//                       <img
-//                         src={reportICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Report
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to={"/location"} className="li-style">
-//                       <img
-//                         src={locationICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Location
-//                     </Link>
-//                   </li>
-//                 </ul>
-//                 <ul className="list-unstyle mt-5">
-//                   <li>
-//                     <Link to={"#"} className="li-style">
-//                       <img
-//                         src={settingICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Setting
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to={"#"} className="li-style">
-//                       <img
-//                         src={supportICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Support
-//                     </Link>
-//                   </li>
-//                   <li>
-//                     <Link to={"/"} className="li-style">
-//                       <img
-//                         src={logoutICON}
-//                         alt="..."
-//                         style={{ width: "auto", height: "100%" }}
-//                       />
-//                       Logout
-//                     </Link>
-//                   </li>
-//                 </ul>
-//               </NavLink>
-//             </Nav>
-//           </Offcanvas.Body>
-//         </Navbar.Offcanvas>
-//       </Navbar>
-//     </>
-//   );
-// };
-
-// export default Topbar;
+export default Topbar

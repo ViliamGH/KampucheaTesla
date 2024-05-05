@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-import "../../css/AdminUser.css";
+import "../../interface/css/AdminUser.css";
 import {
   Button,
   Container,
@@ -17,10 +17,10 @@ import ReactPaginate from "react-paginate";
 import {
   Delete_User,
   Get_All_User,
-} from "../../utilities/services/UserService";
-import Footer from "../../pages/Footer";
+} from "../../interface/utilities/services/UserService";
+import Footer from "../../interface/pages/Footer";
 import { toast } from "react-toastify";
-import Sidebar from "../global/Sidebar";
+// import Sidebar from "../global/Sidebar";
 import {
   faBagShopping,
   faBell,
@@ -77,7 +77,7 @@ const AdminUser = () => {
     <>
       <div className="d-flex justify-content-between body-style">
         <div>
-          <Sidebar />
+          {/* <Sidebar /> */}
         </div>
         <Container fluid className="p-3">
           <Row className="pt-3 d-flex align-items-center">

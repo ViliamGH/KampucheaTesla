@@ -13,12 +13,12 @@ import {
   ToastContainer,
 } from "react-bootstrap";
 
-import teslaLogoLogin from "../../Flag-Icons/LogoTesla/02_0x0-Tesla_T_White.png";
-import google from "../../Flag-Icons/google.png";
-import facebook from "../../Flag-Icons/facebook.png";
-import gitlab from "../../Flag-Icons/gitlab.png";
+import teslaLogoLogin from "../../interface/Flag-Icons/LogoTesla/02_0x0-Tesla_T_White.png";
+import google from "../../interface/Flag-Icons/google.png";
+import facebook from "../../interface/Flag-Icons/facebook.png";
+import gitlab from "../../interface/Flag-Icons/gitlab.png";
+import "../../interface/css/Login.css";
 
-import "../../css/Login.css";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { useTranslation } from "react-i18next";
@@ -126,7 +126,7 @@ const Login = () => {
                 </FormGroup>
               </div>
               <FormGroup id="forgotPassword"></FormGroup>
-              <Link to={"/dashboard"}>
+              <Link to={"#"}>
                 <Button
                   className="mt-4 signin_hover"
                   style={{
@@ -232,7 +232,7 @@ const Login = () => {
           </div>
         </div>
       </Container>
-      <div style={{ marginTop: "13%" }}>
+      <div style={{ marginTop: "10%", marginBottom: "%" }}>
         <hr />
         <div className="text-center">
           <div
@@ -258,6 +258,7 @@ const Login = () => {
           </div>
         </div>
       </div>
+
       <ToastContainer />
       {loading && (
         <div

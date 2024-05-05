@@ -1,30 +1,30 @@
-import { SpeedInsights } from "@vercel/speed-insights/react"
 import React, { useState } from "react";
+import { SpeedInsights } from "@vercel/speed-insights/react"
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-toastify/dist/ReactToastify.css";
 import "./App.css";
 
-import MyNavBarBro from "./components/MyNavbarBro";
+import ShowNotShowNavbar from "./interface/components/ShowNotShowNavbar";
+import MyNavBarBro from "./interface/components/MyNavbarBro";
+import HomePage from "./interface/pages/HomePage";
+import Shop from "./interface/pages/Shop";
+import PrivacyAndLegal from "./interface/pages/PrivacyAndLegal";
+import Contact from "./interface/pages/Contact";
+import AboutUs from "./interface/pages/AboutUs";
+import Login from "./admin/data/Login";
+import Register from "./admin/data/Register";
+import ReviewProduct from "./interface/pages/ReviewProduct";
+import Error404 from "./interface/pages/Error404";
+import AdminDashBoard from "./admin/pages/AdminDashBoard";
+import AdminLocation from "./admin/pages/AdminLocation";
+import AdminProduct from "./admin/pages/AdminProduct";
+import AdminUser from ".//admin/pages/AdminUser";
+import ViewProduct from ".//admin/pages/ViewProduct";
+import ViewProfile from "./admin/pages/ViewProfile";
 import InsertMyProducts from "./admin/pages/InsertMyProducts";
 import InsertMyUsers from "./admin/pages/InsertMyUsers";
-import ViewProfile from "./admin/pages/ViewProfile";
-import Error404 from "./pages/Error404";
-import ViewProduct from "./admin/pages/ViewProduct";
-import Login from "./admin/data/Login";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ShowNotShowNavbar from "./components/ShowNotShowNavbar";
-import Contact from "./pages/Contact";
-import PrivacyAndLegal from "./pages/PrivacyAndLegal";
-import AboutUs from "./pages/AboutUs";
-import Register from "./admin/data/Register";
-import AdminProduct from "./admin/pages/AdminProduct";
-import AdminUser from "./admin/pages/AdminUser";
-import Shop from "./pages/Shop";
-import ReviewProduct from "./pages/ReviewProduct";
-import AdminLocation from "./admin/pages/AdminLocation";
-import AdminDashBoard from "./admin/pages/AdminDashBoard";
-import HomePage from "./pages/HomePage";
 function App() {
   return (
     <>
@@ -35,22 +35,22 @@ function App() {
         </ShowNotShowNavbar>
         <Routes>
           <Route index element={<HomePage />} />
+          <Route path="shop" element={<Shop />} />
+          <Route path="privacyandlegal" element={<PrivacyAndLegal />} />
+          <Route path="contactus" element={<Contact />} />
+          <Route path="aboutus" element={<AboutUs />} />
+          <Route path="login" element={<Login />} />
+          <Route path="register" element={<Register />} />
+          <Route path="reviewproduct/:id" element={<ReviewProduct />} />
           <Route path="insertproducts" element={<InsertMyProducts />} />
           <Route path="insertusers" element={<InsertMyUsers />} />
           <Route path="viewprofile/:id" element={<ViewProfile />} />
           <Route path="viewproduct/:id" element={<ViewProduct />} />
-          <Route path="contactus" element={<Contact />} />
-          <Route path="privacyandlegal" element={<PrivacyAndLegal />} />
-          <Route path="aboutus" element={<AboutUs />} />
-          <Route path="*" element={<Error404 />} />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
-          <Route path="shop" element={<Shop />} />
-          <Route path="reviewproduct/:id" element={<ReviewProduct />} />
           <Route path="adminproduct" element={<AdminProduct />} />
           <Route path="adminuser" element={<AdminUser />} />
           <Route path="location" element={<AdminLocation />} />
           <Route path="dashboard" element={<AdminDashBoard />} />
+          <Route path="*" element={<Error404 />} />
         </Routes>
       </BrowserRouter>
     </>
