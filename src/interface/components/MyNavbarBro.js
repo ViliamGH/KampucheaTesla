@@ -63,7 +63,7 @@ function MyNavBarBro() {
         fluid
         className="d-flex justify-content-between align-items-center"
       >
-        <Navbar expand="lg" fixed="top" className="p-3 top-nav-style">
+        <Navbar expand="md" fixed="top" className="p-3 top-nav-style">
           <Navbar.Brand>
             <Link to={"/"}>
               <img
