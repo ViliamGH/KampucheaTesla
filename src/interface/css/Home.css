@@ -44,6 +44,7 @@
 
 @media only screen and (max-width: 1200px) {
   .absolute-text-carousel2 {
+    padding: 5px;
     background-color: #000;
   }
 

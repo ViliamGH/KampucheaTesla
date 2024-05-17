@@ -3,139 +3,87 @@ import { Col, Container, Row } from "react-bootstrap";
 
 import "../css/Footer.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
-
-import facebook from "../Flag-Icons/facebook.png";
-import twitter from "../Flag-Icons/twitter.png";
-import gitlab from "../Flag-Icons/gitlab.png";
-import instagram from "../Flag-Icons/instagram.png";
+import { faCircle } from "@fortawesome/free-solid-svg-icons";
+import { faChargingStation } from "@fortawesome/free-solid-svg-icons";
+import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import { useTranslation } from "react-i18next";
+// import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  const { t } = useTranslation();
+  // const { t } = useTranslation();
   return (
     <>
-      <Container fluid>
-        <Row style={{ backgroundColor: "#1c2438", paddingLeft: "30px" }}>
-          <Col md={4}>
-            <div className="footer_title mt-4">{t("footer_1")}</div>
-            <p style={{ color: "#B4B4B3" }}>{t("footer__1")}</p>
-          </Col>
-          <Col md={2}>
-            <div>
-              <div className="footer_title mt-4">{t("footer_2")}</div>
-              <ul className="li-link">
-                <li>
-                  <Link to="#" className="hover-link">
-                    {t("footer_3")}
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover-link">
-                    {t("footer_4")}
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover-link">
-                    {t("footer_5")}
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#" className="hover-link">
-                    {t("footer_6")}
-                  </Link>
-                </li>
-              </ul>
+      <Container fluid className="p-0">
+        {/* Footer */}
+        <main className="round">
+          <div>
+            <div className="p-4 text-center">
+              <p>
+                Tesla: Accelerating the World's Transition to Sustainable Energy. Explore our groundbreaking electric vehicles, including the Model S, Model 3, Model X, Model Y, and Cybertruck. Discover our range of solar panels, solar roof tiles, and energy storage solutions such as the Powerwall and Powerpack, designed to empower homes and businesses to harness renewable energy.
+                <br />
+                Join us in revolutionizing transportation and powering a cleaner, more sustainable future. Stay updated on the latest news, events, and innovations from Tesla.
+              </p>
             </div>
-          </Col>
-          <Col md={3}>
-            <div>
-              <div className="footer_title mt-4">{t("footer_7")}</div>
-              <ul className="li-link">
-                <li>
-                  <Link to="" className="hover-link">
-                    {t("footer_8")}
-                    <span className="px-2" style={{ color: "#bbb" }}>
-                      <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                    </span>
-                  </Link>
-                </li>
-                <li>
-                  <Link to="" className="hover-link">
-                    {t("footer_9")}
-                    <span className="px-2" style={{ color: "#bbb" }}>
-                      <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                    </span>
-                  </Link>
-                </li>
-              </ul>
+            <hr className="fw-bold border-3 border-dark" />
+            <div className="d-flex justify-content-center p-3">
+              <Row>
+                <Col lg={12}>
+                  <ul className="list-unstyled fs-6">
+                    <div className="t-start">
+                      <p className="fw-bold fs-5">
+                        Connect with us:
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faCircle} className="icon" /> &nbsp;
+                        Follow us on social media for behind-the-scenes insights and community updates: &nbsp;
+                        <Link to={"#"}>
+                          < FontAwesomeIcon icon={faChargingStation} className="icon-2" />
+                        </Link>
+                      </p>
+                      <p>
+                        <FontAwesomeIcon icon={faCircle} className="icon" /> &nbsp;
+                        Subscribe to our newsletter for exclusive content, event invitations, and special offers: &nbsp;
+                        <Link to={"#"}>
+                          <FontAwesomeIcon icon={faRightToBracket} className="icon-3" />
+                        </Link>
+                      </p>
+                      <p>
+                        Experience the future of mobility and energy with Tesla.
+                      </p>
+                      <p>
+                        <span className="fw-bold">©</span> 2024 Tesla, Inc. All rights reserved. Privacy & Legal | Careers | Investor Relations
+                      </p>
+                    </div>
+                  </ul>
+                </Col>
+              </Row>
             </div>
-          </Col>
-          <Col md={2}>
-            <div>
-              <div className="footer_title mt-4">{t("footer_10")}</div>
-              <ul className="li-link">
-                <li>
-                  <Link to="" className="hover-link">
-                    {t("footer_11")}
-                    <span className="px-2" style={{ color: "#bbb" }}>
-                      <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
-                    </span>
-                  </Link>
-                </li>
-              </ul>
+
+            {/* bottom */}
+            <hr className="fw-bold border-3 border-dark" />
+            <div className="list-unstyled d-flex justify-content-center p-3">
+              <Row>
+                <Col lg={12}>
+                  <ul className="list-unstyled fs-6">
+                    <div className="e-start">
+                      <div className="fw-bold fs-5">
+                        © 2023 Lenovo. All rights reserved.
+                      </div>
+                      <div>
+                        Privacy Cookie Consent Tool Do Not Sell U.S. Privacy Notice Site Map Terms of Use External
+                        Submission
+                      </div>
+                      <div>
+                        Policy Sales terms and conditions Anti-Slavery and Human Trafficking Statement
+                      </div>
+                    </div>
+                  </ul>
+                </Col>
+              </Row>
             </div>
-          </Col>
-        </Row>
-        <Row
-          style={{
-            backgroundColor: "#0d1116",
-            padding: "10px",
-            paddingLeft: "32px",
-          }}
-        >
-          <Col md={6}>
-            <div>© {t("footer_12")} Ltd. 2023</div>
-          </Col>
-          <Col md={6}>
-            <section className="d-flex justify-content-end gap-3 px-3">
-              <Link
-                to="https://www.facebook.com/TeslaMotorsCorp/"
-                target="_blank"
-              >
-                <span>
-                  <img src={facebook} alt="..." style={{ width: "35px" }} />
-                </span>
-              </Link>
-              <Link
-                to="https://twitter.com/Tesla?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
-                target="_blank"
-              >
-                <span>
-                  <img src={twitter} alt="..." style={{ width: "35px" }} />
-                </span>
-              </Link>
-              <Link
-                to="https://www.instagram.com/teslamotors/?hl=en"
-                target="_blank"
-              >
-                <span>
-                  <img src={instagram} alt="..." style={{ width: "35px" }} />
-                </span>
-              </Link>
-              <Link
-                to="https://gitlab.com/explore/projects/topics/tesla"
-                target="_blank"
-              >
-                <span>
-                  <img src={gitlab} alt="..." style={{ width: "35px" }} />
-                </span>
-              </Link>
-            </section>
-          </Col>
-        </Row>
-      </Container>
+          </div>
+        </main>
+      </Container >
     </>
   );
 };

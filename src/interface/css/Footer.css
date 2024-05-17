@@ -1,4 +1,4 @@
-.footer_title {
+/* .footer_title {
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -27,4 +27,76 @@ a {
 .li-link {
   list-style: none;
   padding-left: 0;
+} */
+
+/* @font-face {
+  font-family: "god";
+  src: url("/Poppins/Poppins-Regular.ttf");
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.list-unstyled h5 {
+  font-size: medium;
+  font-weight: bold;
+  color: #294e95;
+}
+
+.list-unstyled {
+  font-size: small;
+  margin-top: 10px;
+}
+
+.list-unstyled li {
+  font-size: small;
+}
+
+.round {
+  background-color: #0d1116;
+  color: #f9f9f9;
+}
+
+@media only screen and (max-width: 900px) {
+  .round {
+    text-align: center;
+  }
+}
+
+.list-unstyled .t-start p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 30px;
+  font-size: 15.5px;
+}
+.list-unstyled .t-start .icon {
+  margin: 3px;
+  font-size: 7px;
+  color: #294e95;
+}
+
+.list-unstyled .e-start div {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  line-height: 30px;
+  font-size: 14px;
+}
+
+.list-unstyled .t-start .icon-2 {
+  margin: 2.5px;
+  color: #294e95;
+  font-size: 25px;
+}
+
+.list-unstyled .t-start .icon-3 {
+  color: #294e95;
+  font-size: 25px;
 }

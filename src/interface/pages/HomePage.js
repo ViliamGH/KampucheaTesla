@@ -25,7 +25,7 @@ const HomePage = () => {
     };
     return (
         <>
-            <Container fluid style={{ marginTop: "10%" }}>
+            <Container fluid className='p-0' style={{ marginTop: "10%" }}>
                 <div className="text-center">
                     <section>
                         <Row className="d-flex justify-content-center align-items-center mb-5">
@@ -54,7 +54,7 @@ const HomePage = () => {
                                 {t("homehome8")}
                                 <span style={{ color: "#4D2DB7" }}>{t("homehome9")}</span>
                             </h1>
-                            <p>{t("homehome10")}</p>
+                            <p className='fs-5'>{t("homehome10")}</p>
                         </div>
                         <video
                             autoPlay
@@ -71,12 +71,12 @@ const HomePage = () => {
                         <div className="p-5 pb-0">
                             <h1 className="fw-bolder">
                                 {t("homecarosuel1")}{" "}
-                                <span style={{ color: "#4D2DB7" }}>{t("homecarosuel2")}</span>{" "}
+                                <span style={{ color: "#4D2DB7" }}>{t("homecarosuel2")}</span>
                                 {t("homecarosuel3")}
                                 &nbsp;
                                 <span style={{ color: "#4d2db7" }}>{t("homecarosuel4")}</span>
                             </h1>
-                            <Link to="#">{t("homecarosuel5")}</Link>
+                            <Link to="#" className='text-secondary'>{t("homecarosuel5")}</Link>
                         </div>
 
                         {/* start the carousels */}
