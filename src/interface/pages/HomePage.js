@@ -25,7 +25,7 @@ const HomePage = () => {
     };
     return (
         <>
-            <Container fluid className='p-0' style={{ marginTop: "10%" }}>
+            <Container fluid style={{ marginTop: "10%" }}>
                 <div className="text-center">
                     <section>
                         <Row className="d-flex justify-content-center align-items-center mb-5">
