@@ -7,10 +7,10 @@ import { faCircle } from "@fortawesome/free-solid-svg-icons";
 import { faChargingStation } from "@fortawesome/free-solid-svg-icons";
 import { faRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-// import { useTranslation } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
-  // const { t } = useTranslation();
+  const { t } = useTranslation();
   return (
     <>
       <Container fluid className="p-0">
@@ -19,9 +19,9 @@ const Footer = () => {
           <div>
             <div className="p-4 text-center">
               <p>
-                Tesla: Accelerating the World's Transition to Sustainable Energy. Explore our groundbreaking electric vehicles, including the Model S, Model 3, Model X, Model Y, and Cybertruck. Discover our range of solar panels, solar roof tiles, and energy storage solutions such as the Powerwall and Powerpack, designed to empower homes and businesses to harness renewable energy.
+                {t("footer_2")}
                 <br />
-                Join us in revolutionizing transportation and powering a cleaner, more sustainable future. Stay updated on the latest news, events, and innovations from Tesla.
+                {t("footer_3")}
               </p>
             </div>
             <hr className="fw-bold border-3 border-dark" />
@@ -35,23 +35,25 @@ const Footer = () => {
                       </p>
                       <p>
                         <FontAwesomeIcon icon={faCircle} className="icon" /> &nbsp;
-                        Follow us on social media for behind-the-scenes insights and community updates: &nbsp;
+                        {t("footer_4")}
+                        &nbsp;
                         <Link to={"#"}>
                           < FontAwesomeIcon icon={faChargingStation} className="icon-2" />
                         </Link>
                       </p>
                       <p>
                         <FontAwesomeIcon icon={faCircle} className="icon" /> &nbsp;
-                        Subscribe to our newsletter for exclusive content, event invitations, and special offers: &nbsp;
+                        {t("footer_5")}
+                        &nbsp;
                         <Link to={"#"}>
                           <FontAwesomeIcon icon={faRightToBracket} className="icon-3" />
                         </Link>
                       </p>
                       <p>
-                        Experience the future of mobility and energy with Tesla.
+                        {t("footer_6")}
                       </p>
                       <p>
-                        <span className="fw-bold">©</span> 2024 Tesla, Inc. All rights reserved. Privacy & Legal | Careers | Investor Relations
+                        <span className="fw-bold">©</span> {t("footer_8")}
                       </p>
                     </div>
                   </ul>
@@ -67,13 +69,13 @@ const Footer = () => {
                   <ul className="list-unstyled fs-6">
                     <div className="e-start">
                       <div className="fw-bold fs-5">
-                        © 2023 Lenovo. All rights reserved.
+                        {t("footer_9")}
                       </div>
                       <div>
-                        Privacy Cookie Consent Tool Do Not Sell U.S. Privacy Notice Site Map Terms of Use External Submission
+                        {t("footer_10")}
                       </div>
+                      {t("footer_11")}
                       <div>
-                        Policy Sales terms and conditions Anti-Slavery and Human Trafficking Statement
                       </div>
                     </div>
                   </ul>
