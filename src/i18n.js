@@ -139,8 +139,8 @@ i18n.use(initReactI18next).init({
         footer_5: " Follow us on social mdeia for behind-the-sences isights and ocmmunity updates:",
         footer_6: "Subscribe to our newsletter for exclusive content, event invitations, and special offers:",
         footer_7: "Experience the future of mobility and energy with Tesla.",
-        footer_8: "2024 Tesla, Inc. All rights reserved. Privacy & Legal | Careers | Investor Relations",
-        footer_9: "© 2023 Lenovo. All rights reserved.",
+        footer_8: "2023 Tesla, Inc. All rights reserved. Privacy & Legal | Careers | Investor Relations",
+        footer_9: "© 2023 Tesla. All rights reserved.",
         footer_10: " Privacy Cookie Consent Tool Do Not Sell U.S. Privacy Notice Site Map Terms of Use External Submission",
         footer_11: "Policy Sales terms and conditions Anti-Slavery and Human Trafficking Statement",
 
@@ -416,8 +416,8 @@ i18n.use(initReactI18next).init({
         footer_5: "តាមដានពួកយើងនៅលើប្រព័ន្ធផ្សព្វផ្សាយសង្គមសម្រាប់ការយល់ដឹងនៅពីក្រោយឆាក និងព័ត៌មានថ្មីៗសហគមន៍៖",
         footer_6: "ជាវព្រឹត្តិប័ត្រព័ត៌មានរបស់យើងសម្រាប់ខ្លឹមសារផ្តាច់មុខ ការអញ្ជើញព្រឹត្តិការណ៍ និងការផ្តល់ជូនពិសេស៖",
         footer_7: "បទពិសោធន៍អនាគតនៃការចល័ត និងថាមពលជាមួយ Tesla ។",
-        footer_8: "រក្សាសិទ្ធិគ្រប់យ៉ាង។ ឯកជនភាព & ច្បាប់ | អាជីព | ទំនាក់ទំនង​វិនិយោគិន",
-        footer_9: "© 2023 ក្រុមហ៊ុន Lenovo ។ រក្សា​រ​សិទ្ធ​គ្រប់យ៉ាង។",
+        footer_8: "2023 Tesla, Inc រក្សាសិទ្ធិគ្រប់យ៉ាង។ ឯកជនភាព & ច្បាប់ | អាជីព | ទំនាក់ទំនង​វិនិយោគិន",
+        footer_9: "© 2023 ក្រុមហ៊ុន Telsa ។ រក្សា​រ​សិទ្ធ​គ្រប់យ៉ាង។",
         footer_10: "ឧបករណ៍​យល់ព្រម​ខូគី​ឯកជនភាព​មិន​លក់​ការ​ជូន​ដំណឹង​អំពី​ភាពឯកជន​របស់​សហរដ្ឋអាមេរិក ផែនទី​ប​ណ្តា​ញ លក្ខខណ្ឌ​នៃ​ការ​ប្រើ​ប្រាស់​ខាង​ក្រៅ ការដាក់ស្នើ",
         footer_11: "លក្ខខណ្ឌនៃការលក់គោលនយោបាយ សេចក្តីថ្លែងការណ៍ប្រឆាំងទាសភាព និងការជួញដូរមនុស្ស",
 
@@ -690,8 +690,8 @@ i18n.use(initReactI18next).init({
         footer_5: "在社交媒体上关注我们，了解幕后见解和社区更新：",
         footer_6: "订阅我们的时事通讯以获取独家内容、活动邀请和特别优惠：",
         footer_7: "与特斯拉一起体验移动和能源的未来",
-        footer_8: "2024 Tesla, Inc. 保留所有权利。隐私与法律 |职业生涯 |投资者关系",
-        footer_9: "© 2023 联想。版权所有。",
+        footer_8: "2023 Tesla, Inc. 保留所有权利。隐私与法律 |职业生涯 |投资者关系",
+        footer_9: "© 2023 年特斯拉。版权所有。",
         footer_10: "隐私 Cookie 同意工具 不出售 美国隐私声明 站点地图 使用条款 外部提交",
         footer_11: "政策 销售条款和条件 反奴隶制和人口贩卖声明",
 
