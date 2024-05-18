@@ -132,19 +132,17 @@ i18n.use(initReactI18next).init({
 
         //in footer page
         footer_1: "About Us",
-        footer__1:
-          "Our mission is to make your experience with us as seamless and enjoyable as possible. We strive to offer a wide selection of products that meet the highest standards of quality and performance. Whether you're looking for [list some of the main products or services offered], we have you covered.",
-        footer_2: "Doc",
-        footer_3: "Links",
-        footer_4: "Forms",
-        footer_5: "Component",
-        footer_6: "Utilities",
-        footer_7: "Community",
-        footer_8: "Getting Started",
-        footer_9: "Layout",
-        footer_10: "More",
-        footer_11: "GitHub",
-        footer_12: "TeslaClone International",
+        footer_2: "Tesla: Accelerating the World's Transition to Sustainable Energy. Explore our groundbreaking electric vehicles, including the Model S, Model 3, Model X, Model Y, and Cybertruck. Discover our range of solar panels, solar roof tiles, and energy storage solutions such as the Powerwall and Powerpack, designed to empower homes and businesses to harness renewable energy.",
+
+        footer_3: "Join us in revolutionizing transportation and powering a cleaner, more sustainable future.Stay updated on the latest news, events, and innovations from Tesla.",
+        footer_4: "Contact with us:",
+        footer_5: " Follow us on social mdeia for behind-the-sences isights and ocmmunity updates:",
+        footer_6: "Subscribe to our newsletter for exclusive content, event invitations, and special offers:",
+        footer_7: "Experience the future of mobility and energy with Tesla.",
+        footer_8: "2024 Tesla, Inc. All rights reserved. Privacy & Legal | Careers | Investor Relations",
+        footer_9: "© 2023 Lenovo. All rights reserved.",
+        footer_10: " Privacy Cookie Consent Tool Do Not Sell U.S. Privacy Notice Site Map Terms of Use External Submission",
+        footer_11: "Policy Sales terms and conditions Anti-Slavery and Human Trafficking Statement",
 
         //in contact page
         contact_1: "  Contact ",
@@ -412,19 +410,16 @@ i18n.use(initReactI18next).init({
 
         //in footer page
         footer_1: "អំពី​ពួក​យើង",
-        footer__1:
-          "បេសកកម្មរបស់យើងគឺដើម្បីធ្វើឱ្យបទពិសោធន៍របស់អ្នកជាមួយយើងមានភាពរលូន និងរីករាយតាមដែលអាចធ្វើទៅបាន។ យើងខិតខំផ្តល់ជូននូវជម្រើសដ៏ធំទូលាយនៃផលិតផលដែលបំពេញតាមស្តង់ដារខ្ពស់បំផុតនៃគុណភាព និងដំណើរការ។ មិនថាអ្នកកំពុងស្វែងរក [រាយបញ្ជីផលិតផល ឬសេវាកម្មសំខាន់ៗមួយចំនួនដែលផ្តល់ជូន] ទេ ពួកយើងមានអ្នករ៉ាប់រង។",
-        footer_2: "ឯកសារ",
-        footer_3: "តំណភ្ជាប់",
-        footer_4: "ទម្រង់",
-        footer_5: "សមាសធាតុ",
-        footer_6: "ឧបករណ៍ប្រើប្រាស់",
-        footer_7: "សហគមន៍",
-        footer_8: "ការចាប់ផ្តើម",
-        footer_9: "ប្លង់",
-        footer_10: "បន្ថែម",
-        footer_11: "GitHub",
-        footer_12: "ក្រុមហ៊ុន TeslaClone អន្តរជាតិ",
+        footer_2: "Tesla៖ ការបង្កើនល្បឿននៃការផ្លាស់ប្តូរពិភពលោកទៅកាន់ថាមពលប្រកបដោយនិរន្តរភាព។ រុករកយានជំនិះអគ្គិសនីដ៏ទំនើបរបស់យើង រួមមានម៉ូដែល S, ម៉ូដែល 3, ម៉ូដែល X, ម៉ូដែល Y និង Cybertruck ។ ស្វែងយល់ពីជួររបស់យើងនៃបន្ទះស្រូបពន្លឺព្រះអាទិត្យ ក្បឿងដំបូលសូឡា និងដំណោះស្រាយស្តុកថាមពលដូចជា Powerwall និង Powerpack ដែលត្រូវបានរចនាឡើងដើម្បីផ្តល់អំណាចដល់ផ្ទះ និងអាជីវកម្មក្នុងការទាញយកថាមពលកកើតឡើងវិញ។",
+        footer_3: "ចូលរួមជាមួយយើងក្នុងបដិវត្តន៍ដឹកជញ្ជូន និងផ្តល់ថាមពលឱ្យកាន់តែស្អាត និងមាននិរន្តរភាពនាពេលអនាគត។ ទទួលបានព័ត៌មានថ្មីៗ ព្រឹត្តិការណ៍ និងការច្នៃប្រឌិតថ្មីៗពី Tesla ។",
+        footer_4: "ភ្ជាប់ជាមួយយើង៖",
+        footer_5: "តាមដានពួកយើងនៅលើប្រព័ន្ធផ្សព្វផ្សាយសង្គមសម្រាប់ការយល់ដឹងនៅពីក្រោយឆាក និងព័ត៌មានថ្មីៗសហគមន៍៖",
+        footer_6: "ជាវព្រឹត្តិប័ត្រព័ត៌មានរបស់យើងសម្រាប់ខ្លឹមសារផ្តាច់មុខ ការអញ្ជើញព្រឹត្តិការណ៍ និងការផ្តល់ជូនពិសេស៖",
+        footer_7: "បទពិសោធន៍អនាគតនៃការចល័ត និងថាមពលជាមួយ Tesla ។",
+        footer_8: "រក្សាសិទ្ធិគ្រប់យ៉ាង។ ឯកជនភាព & ច្បាប់ | អាជីព | ទំនាក់ទំនង​វិនិយោគិន",
+        footer_9: "© 2023 ក្រុមហ៊ុន Lenovo ។ រក្សា​រ​សិទ្ធ​គ្រប់យ៉ាង។",
+        footer_10: "ឧបករណ៍​យល់ព្រម​ខូគី​ឯកជនភាព​មិន​លក់​ការ​ជូន​ដំណឹង​អំពី​ភាពឯកជន​របស់​សហរដ្ឋអាមេរិក ផែនទី​ប​ណ្តា​ញ លក្ខខណ្ឌ​នៃ​ការ​ប្រើ​ប្រាស់​ខាង​ក្រៅ ការដាក់ស្នើ",
+        footer_11: "លក្ខខណ្ឌនៃការលក់គោលនយោបាយ សេចក្តីថ្លែងការណ៍ប្រឆាំងទាសភាព និងការជួញដូរមនុស្ស",
 
         //in contact page
         contact_1: "  ទាក់ទង ",
@@ -689,19 +684,16 @@ i18n.use(initReactI18next).init({
 
         //in footer page
         footer_1: "關於我們",
-        footer__1:
-          "我們的使命是讓您在我們這裡的體驗盡可能無縫和愉快。我們努力提供滿足最高品質和性能標準的廣泛產品選擇。無論您正在尋找[列出提供的一些主要產品或服務]，我們都能滿足您的需求。",
-        footer_2: "醫生",
-        footer_3: "連結",
-        footer_4: "形式",
-        footer_5: "成分",
-        footer_6: "公用事業",
-        footer_7: "社群",
-        footer_8: "入門",
-        footer_9: "佈局",
-        footer_10: "更多的",
-        footer_11: "GitHub",
-        footer_12: "特斯拉克隆国际公司",
+        footer_2: "特斯拉：加速世界向可持续能源转型。探索我们突破性的电动汽车，包括 Model S、Model 3、Model X、Model Y 和 Cyber​​truck。了解我们的太阳能电池板、太阳能屋顶瓦和能源存储解决方案（例如 Powerwall 和 Powerpack）系列，旨在帮助家庭和企业利用可再生能源。",
+        footer_3: "与我们一起革新交通运输，打造更清洁、更可持续的未来。随时了解 Tesla 的最新新闻、活动和创新。",
+        footer_4: "联系我们：",
+        footer_5: "在社交媒体上关注我们，了解幕后见解和社区更新：",
+        footer_6: "订阅我们的时事通讯以获取独家内容、活动邀请和特别优惠：",
+        footer_7: "与特斯拉一起体验移动和能源的未来",
+        footer_8: "2024 Tesla, Inc. 保留所有权利。隐私与法律 |职业生涯 |投资者关系",
+        footer_9: "© 2023 联想。版权所有。",
+        footer_10: "隐私 Cookie 同意工具 不出售 美国隐私声明 站点地图 使用条款 外部提交",
+        footer_11: "政策 销售条款和条件 反奴隶制和人口贩卖声明",
 
         //in contact page
         contact_1: " 接触",

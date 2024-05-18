@@ -70,8 +70,7 @@ const Footer = () => {
                         © 2023 Lenovo. All rights reserved.
                       </div>
                       <div>
-                        Privacy Cookie Consent Tool Do Not Sell U.S. Privacy Notice Site Map Terms of Use External
-                        Submission
+                        Privacy Cookie Consent Tool Do Not Sell U.S. Privacy Notice Site Map Terms of Use External Submission
                       </div>
                       <div>
                         Policy Sales terms and conditions Anti-Slavery and Human Trafficking Statement
