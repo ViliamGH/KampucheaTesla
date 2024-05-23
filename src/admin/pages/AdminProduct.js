@@ -107,15 +107,15 @@ const AdminProduct = () => {
             </Col>
             <div className="d-flex justify-content-between mt-5 mb-5">
               <div>
-                <Link to="/insertusers" className="btn btn-secondary mb-3">
-                  Create User
+                <Link to="/insertproducts" className="btn btn-secondary mb-3">
+                  Insert New Products
                 </Link>
               </div>
               <div>
                 <Form>
                   <Form.Control
                     type="search"
-                    placeholder="Search Name..."
+                    placeholder="Search Title..."
                     aria-label="Search"
                     onChange={(e) => setSearchProduct(e.target.value)}
                   />
@@ -148,7 +148,7 @@ const AdminProduct = () => {
                         <Link to={`/viewproduct/${pro.id}`}>
                           <Carousel
                             className="object-fit-contain img-fluid"
-                            // style={{ backgroundColor: "transparent" }}
+                          // style={{ backgroundColor: "transparent" }}
                           >
                             {pro.images.map((image) => (
                               <Carousel.Item interval={2000}>

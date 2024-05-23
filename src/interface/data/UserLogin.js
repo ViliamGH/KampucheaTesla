@@ -125,7 +125,7 @@ const UserLogin = () => {
                                 </FormGroup>
                             </div>
                             <FormGroup id="forgotPassword"></FormGroup>
-                            <Link to="/dashboard">
+                            <Link to="#">
                                 <Button
                                     className="mt-4 signin_hover"
                                     style={{
