@@ -1,0 +1,77 @@
+.body-style {
+  background: linear-gradient(106.37deg, #4b525aff, #232939ff, #14181fff);
+}
+
+.table-style {
+  border-left: none !important;
+}
+
+.table-style thead,
+tr,
+th {
+  background-color: #9892cdff !important;
+  color: #000 !important;
+}
+
+.img-style {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+/* button style */
+.button-style-view {
+  text-decoration: underline;
+  color: #0174be;
+}
+
+.button-style-view:hover {
+  color: #0174be;
+}
+
+.button-style-delete {
+  margin-top: 34px;
+  color: #c70039;
+  display: inline;
+  position: relative;
+}
+
+.button-style-delete::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0; /* Adjust the distance of the underline from the text */
+  width: 0;
+  height: 1px; /* Adjust the thickness of the underline */
+  background-color: #000; /* Adjust the color of the underline */
+  transition: width 0.5s;
+}
+
+.button-style-delete:hover::before {
+  width: 100%;
+}
+
+.border-style {
+  display: inline;
+  padding: 10px;
+  border: 2px solid;
+  border-color: #7240c8;
+}
+
+/* pagination style */
+.pagination a {
+  border: 1px solid #b4b4b3 !important;
+}
+
+.pagination li a {
+  color: #000000 !important;
+  background-color: #f9f9f9 !important;
+}
+
+.pagination li.active a {
+  border-color: none;
+  color: #000000 !important;
+  background-color: #f9f9f9 !important;
+}
+
+/* view on table data row */

@@ -20,10 +20,12 @@ const ShowNotShowNavbar = ({ children }) => {
     console.log("Information: " + location);
     // location.pathname === "..." a string containing the path of the URL for the location
     if (
-      location.pathname === "/login" ||
+      location.pathname === "/adminlogin" ||
+      location.pathname === "/userlogin" ||
       location.pathname === "/insertusers" ||
       location.pathname === "/insertproducts" ||
-      location.pathname === "/register" ||
+      location.pathname === "/adminregister" ||
+      location.pathname === "/userregister" ||
       location.pathname === "/adminpage" ||
       location.pathname === "/adminhome" ||
       location.pathname === "/adminuser" ||

@@ -1,0 +1,30 @@
+.footer_title {
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+a {
+  color: #bbb;
+}
+
+.a_noUnderline a {
+  text-decoration: none;
+}
+
+.global-according {
+  background: transparent;
+}
+
+.hover-link {
+  text-decoration: none;
+  color: #337ccf;
+  font-weight: bold;
+}
+.hover-link:hover {
+  text-decoration: underline;
+  color: #b4b4b3;
+}
+
+.li-link {
+  list-style: none;
+  padding-left: 0;
+}

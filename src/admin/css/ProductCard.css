@@ -1,0 +1,31 @@
+.card-body {
+  padding: 20px 0px 0px 0px;
+}
+
+.card-hover {
+  border: none;
+  display: block;
+  transition: all 1.5s ease;
+  background: transparent;
+  color: #f9f9f9;
+}
+
+.card-hover:hover {
+  border-color: #b4b4b3;
+}
+
+.image-hover {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.image-hover #ok {
+  width: 100%;
+  display: block;
+  transition: all 1.5s ease;
+}
+
+.image-hover:hover #ok {
+  transform: scale(1.3);
+}

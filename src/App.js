@@ -12,8 +12,8 @@ import Shop from "./interface/pages/Shop";
 import PrivacyAndLegal from "./interface/pages/PrivacyAndLegal";
 import Contact from "./interface/pages/Contact";
 import AboutUs from "./interface/pages/AboutUs";
-import Login from "./admin/data/Login";
-import Register from "./admin/data/Register";
+import AdminLogin from "./admin/data/AdminLogin";
+import AdminRegister from "./admin/data/AdminRegister";
 import ReviewProduct from "./interface/pages/ReviewProduct";
 import Error404 from "./interface/pages/Error404";
 import AdminDashBoard from "./admin/pages/AdminDashBoard";
@@ -24,6 +24,9 @@ import ViewProduct from ".//admin/pages/ViewProduct";
 import ViewProfile from "./admin/pages/ViewProfile";
 import InsertMyProducts from "./admin/pages/InsertMyProducts";
 import InsertMyUsers from "./admin/pages/InsertMyUsers";
+import UserLogin from "./interface/data/UserLogin";
+import UserRegister from "./interface/data/UserRegister";
+
 
 function App() {
   return (
@@ -39,8 +42,10 @@ function App() {
           <Route path="privacyandlegal" element={<PrivacyAndLegal />} />
           <Route path="contactus" element={<Contact />} />
           <Route path="aboutus" element={<AboutUs />} />
-          <Route path="login" element={<Login />} />
-          <Route path="register" element={<Register />} />
+          <Route path="adminlogin" element={<AdminLogin />} />
+          <Route path="adminregister" element={<AdminRegister />} />
+          <Route path="userlogin" element={<UserLogin />} />
+          <Route path="userregister" element={<UserRegister />} />
           <Route path="reviewproduct/:id" element={<ReviewProduct />} />
           <Route path="insertproducts" element={<InsertMyProducts />} />
           <Route path="insertusers" element={<InsertMyUsers />} />

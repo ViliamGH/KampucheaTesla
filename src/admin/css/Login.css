@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.content {
+  font-size: small;
+}
+
+.hr-center::before {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.hr-center::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #eee;
+  margin: 20px 0;
+}
+
+.btn_trans {
+  color: #000 !important;
+  background-color: transparent !important;
+}
+
+.make_image_center {
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+.signin_hover {
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: bold;
+  transition: all 1s ease;
+}
+
+.signin_hover:hover {
+  transform: scale(1);
+  color: #252b48;
+}

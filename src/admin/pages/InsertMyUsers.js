@@ -26,6 +26,7 @@ import {
   faRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Sidebar from "../global/Sidebar";
 
 const InsertMyUsers = () => {
   const [name, setName] = useState("");
@@ -141,7 +142,7 @@ const InsertMyUsers = () => {
     <>
       <div className="d-flex justify-content-between body-style">
         <div>
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
         <Container fluid className="p-3 pb-5">
           <Row className="px-5 pt-3 d-flex align-items-center">

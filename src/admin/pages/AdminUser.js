@@ -28,6 +28,7 @@ import {
   faRightFromBracket,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Sidebar from "../global/Sidebar";
 
 const AdminUser = () => {
   const [users, setUsers] = useState([]);
@@ -77,7 +78,7 @@ const AdminUser = () => {
     <>
       <div className="d-flex justify-content-between body-style">
         <div>
-          {/* <Sidebar /> */}
+          <Sidebar />
         </div>
         <Container fluid className="p-3">
           <Row className="pt-3 d-flex align-items-center">
