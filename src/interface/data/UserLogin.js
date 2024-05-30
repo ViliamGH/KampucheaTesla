@@ -126,7 +126,7 @@ const UserLogin = () => {
                             </div>
                             <FormGroup id="forgotPassword"></FormGroup>
                             {/* dashboard router */}
-                            <Link to="">
+                            <Link to="/">
                                 <Button
                                     className="mt-4 signin_hover"
                                     style={{
