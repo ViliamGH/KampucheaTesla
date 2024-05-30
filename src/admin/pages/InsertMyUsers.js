@@ -37,7 +37,6 @@ const InsertMyUsers = () => {
   const [imageURL, setImageURL] = useState("");
   const [selectFile, setSelectFile] = useState(null);
 
-  //
   const [showMenu, setShowMenu] = useState(false);
   const [title, setTitle] = useState("Region & Language");
 
@@ -56,7 +55,6 @@ const InsertMyUsers = () => {
     { code: "kh", name: "ខ្មែរ" },
     { code: "ch", name: "中国" },
   ];
-  //
 
   const myNavigate = useNavigate();
 
@@ -156,6 +154,7 @@ const InsertMyUsers = () => {
             </Col>
             <Col md={6} className="d-flex justify-content-end gap-4 p-4">
               <Link to="#" className="icon-size">
+
                 <FontAwesomeIcon icon={faBagShopping} />
               </Link>
               <Link to="#" className="icon-size">
@@ -182,22 +181,23 @@ const InsertMyUsers = () => {
                     width="100%"
                     className="object-fit-contain img-fluid"
                   />
-                  <FormGroup>
+                <FormGroup>
                     <FormControl type="file" onChange={handleChangeImage} />
                   </FormGroup>
                 </Col>
 
                 {/* right side in grid */}
                 <Col xl={6}>
-                  <FormLabel className="mt-5">{t("username_1")}</FormLabel>
+                  <Form.Label htmlFor="txtUsername" className="mt-5 text-dark">{t("username_1")}</Form.Label>
                   <Form.Control
                     className="form-control-style"
                     type="text"
+                    id="txtUsername"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
 
-                  <FormLabel className="mt-3">{t("email_1")}</FormLabel>
+                  <FormLabel className="mt-3 text-dark">{t("email_1")}</FormLabel>
                   <Form.Control
                     className="form-control-style"
                     type="email"
@@ -205,14 +205,14 @@ const InsertMyUsers = () => {
                     onChange={(e) => setEmail(e.target.value)}
                   />
 
-                  <FormLabel className="mt-3">{t("password_1")}</FormLabel>
+                  <FormLabel className="mt-3 text-dark">{t("password_1")}</FormLabel>
                   <Form.Control
                     className="form-control-style"
                     type="password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
                   />
-                  <div className="mt-3 d-flex justify-content-between">
+                  <div className="mt-5 d-flex justify-content-between">
                     <div>
                       <Button
                         variant="success"

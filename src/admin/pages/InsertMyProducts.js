@@ -208,37 +208,31 @@ const InsertMyProducts = () => {
 
                 {/* right side */}
                 <Col xl={6}>
-                  <FormLabel className="mt-3">{t("p_name")}</FormLabel>
+                  <FormLabel className="mt-3 text-dark">{t("p_name")}</FormLabel>
                   <FormControl
                     className="form-control-style"
                     type="text"
                     value={title}
                     onChange={(e) => setTitle(e.target.value)}
                   />
-                  <Row className="mt-1 g-3">
-                    <Col xl={6}>
-                      <FormLabel>{t("p_price")}</FormLabel>
-                      <FormControl
-                        className="form-control-style"
-                        type="number"
-                        value={price}
-                        onChange={(e) => setPrice(e.target.value)}
-                      />
-                    </Col>
-                    <Col xl={6}>
-                      <FormLabel>{t("p_category")}</FormLabel>
-                      <FormSelect
-                        className="form-control-style"
-                        value={categoryId}
-                        onChange={(e) => setCategoryId(e.target.value)}
-                      >
-                        {category.map((cate) => (
-                          <option value={cate.id}>{cate.name}</option>
-                        ))}
-                      </FormSelect>
-                    </Col>
-                  </Row>
-                  <FormLabel className="mt-3">{t("p_description")}</FormLabel>
+                  <FormLabel className="mt-3 text-dark">{t("p_price")}</FormLabel>
+                  <FormControl
+                    className="form-control-style"
+                    type="number"
+                    value={price}
+                    onChange={(e) => setPrice(e.target.value)}
+                  />
+                  <FormLabel className="mt-3 text-dark">{t("p_category")}</FormLabel>
+                  <FormSelect
+                    className="form-control-style"
+                    value={categoryId}
+                    onChange={(e) => setCategoryId(e.target.value)}
+                  >
+                    {category.map((cate) => (
+                      <option value={cate.id}>{cate.name}</option>
+                    ))}
+                  </FormSelect>
+                  <FormLabel className="mt-3 text-dark">{t("p_description")}</FormLabel>
                   <FormControl
                     as="textarea"
                     style={{
@@ -292,9 +286,9 @@ const InsertMyProducts = () => {
                 </Col>
               </Row>
             </div>
-          </Row>
-        </Container>
-      </div>
+          </Row >
+        </Container >
+      </div >
       <div>
         <Footer />
       </div>
